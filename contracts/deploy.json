@@ -1,0 +1,8 @@
+{
+  "contracts": [
+    {
+      "name": "RaceShop",
+      "args": { "gd_": "${GOODDOLLAR}" }
+    }
+  ]
+}

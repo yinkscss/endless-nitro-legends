@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Neon Drift</title>
+    <style type="text/tailwindcss">
+      @theme {
+        --color-background: #FFF8FB;
+        --color-foreground: #2E0F20;
+        --color-muted: #FBEDF3;
+        --color-muted-foreground: #75495F;
+        --color-card: #FFFFFF;
+        --color-border: #F2D8E4;
+        --color-ring: #BE185D;
+        --color-primary: #6D1A45;
+        --color-primary-foreground: #FFFFFF;
+        --color-accent: #BE185D;
+        --color-accent-foreground: #FFFFFF;
+        --color-success: #047857;
+        --color-warning: #B45309;
+        --color-danger: #B91C1C;
+        --radius-lg: 0.75rem;
+        --font-sans: Inter, ui-sans-serif, system-ui, sans-serif;
+        --font-display: Inter, ui-sans-serif, system-ui, sans-serif;
+      }
+      @layer base {
+        body {
+          @apply bg-muted text-foreground;
+        }
+      }
+    </style>
+  </head>
+  <body class="bg-muted text-foreground antialiased">
+    <div id="root"></div>
+  </body>
+</html>

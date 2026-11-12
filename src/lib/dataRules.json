@@ -1,0 +1,12 @@
+{
+  "collections": {
+    "scores": {
+      "create": "anyone",
+      "read": ["anyone"],
+      "delete": ["owner"],
+      "update": [],
+      "public": ["racer", "score", "car", "level"],
+      "fields": { "racer": "string", "score": "number", "car": "number", "level": "number" }
+    }
+  }
+}
